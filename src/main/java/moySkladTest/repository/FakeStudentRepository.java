@@ -6,10 +6,11 @@ import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 @Component
 public class FakeStudentRepository {
-    private Map<String, HashMap> students= new HashMap<>();
+    private TreeMap<String, HashMap> students= new TreeMap<>();
 
 
 
@@ -25,7 +26,8 @@ public class FakeStudentRepository {
         students.remove(lastName);
     }
 
-    public Map getAll() {
+    public TreeMap getAll() {
+
         return students;
     }
 
