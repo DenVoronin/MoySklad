@@ -6,7 +6,15 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("moySkladTest")
-//test3
+//1
+//2
+//3
+//4
+//5
+//6
+//7
+//add from another dev
+//8
 public class Main {
 
     public static void main(String[] args){
